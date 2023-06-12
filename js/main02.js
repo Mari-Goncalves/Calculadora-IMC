@@ -1,13 +1,13 @@
-const botaoEnviar = document.querySelector('#botao_enviarDados')
+const sendInformationsButton = document.querySelector('#send-informations-button')
 
 function calcularIMC(){
-    let altura = document.getElementById('altura').value
-    let peso = document.getElementById('peso').value
-    let alturaMetros = altura/100
-    let numeroIMC = peso/(alturaMetros*alturaMetros)
-    let campoResultado = document.querySelector('.container_resultado-IMC')
+    let heigh = document.querySelector('#heigh').value
+    let weigh = document.querySelector('#weigh').value
+    let heighMeters = heigh/100
+    let imcResult = weigh/(heighMeters*heighMeters)
+    let resultField = document.querySelector('#imc-result')
 
-    campoResultado.innerHTML = numeroIMC ? `O seu IMC é ${numeroIMC.toFixed(2)}` : ''
+    resultField.innerHTML = imcResult ? `O seu IMC é ${imcResult.toFixed(2)}` : ''
 }
 
-botaoEnviar.addEventListener('click', calcularIMC)
+sendInformationsButton.addEventListener('click', calcularIMC)
