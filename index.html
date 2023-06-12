@@ -11,44 +11,32 @@
 </head>
 <body>
 
-<!-- 
-    HTML:
-
-    adicionar peso e altura
-        input tipo number peso e altura
+<main>
+    <section id="container">
+        <h1 id="calculator-title">Calculadora IMC</h1>
         
-    clicar no botão de enviar
-        input tipo submit 
-
-    ver a mensagem com o resultado na tela
-        div .container_resultado-IMC
- -->
-<div class="container">
-    <div class="cont_info">
-        <h1>Calculadora IMC</h1>
-        
-        <div class="pesoAlt">
-            <label class="label_pesoAlt" for="">Informe sua altura (cm)</label>
-            <input 
+        <article class="container-weig-heigh">
+            <label class="label-weig-heigh" for="">Informe sua altura (cm)</label>
+            <input
                 type="number"
-                class="dados_input"  
-                id="altura">
-        </div>
+                class="information-field"  
+                id="heigh">
+        </article>
     
-        <div class="pesoAlt">
-            <label class="label_pesoAlt" for="">Informe seu peso (kg)</label>
+        <article class="container-weig-heigh">
+            <label class="label-weig-heigh" for="">Informe seu peso (kg)</label>
             <input 
                 type="number"
-                class="dados_input"    
-                id="peso">
-        </div>
+                class="information-field"      
+                id="weigh">
+        </article>
 
-        <div class="botao_resul">
-            <button id="botao_enviarDados">Enviar</button>
-            <div class="container_resultado-IMC"></div>
-        </div>
-    </div>
-</div>
+        <section id="container-button-result">
+            <button id="send-informations-button">Enviar</button>
+            <p id="imc-result"></p>
+        </section>
+    </section>
+</main>
 
 
     <!-- <script src="js/main.js"></script> -->
