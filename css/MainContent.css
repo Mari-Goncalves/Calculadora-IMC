@@ -1,0 +1,64 @@
+
+main{
+    background: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+}
+
+#container{
+    width: 30%;
+}
+
+#calculator-title{
+    padding: 20px 0 25px 0;
+    color: #00b4bd;
+    font-size: 28px;
+}
+
+.container-weig-heigh{
+    color: #007c8a;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+
+.label-weig-heigh{
+    font-size: 20px
+}
+
+.information-field{
+    height: 40px;
+}
+
+#send-informations-button{
+    border: none;
+    color: #ffff;
+    background: #00b4bd;
+    padding: 10px;
+    font-size: 18px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+#send-informations-button:hover{
+    background: #01949c;
+}
+
+#container-button-result{
+    display: flex;
+    justify-content: space-between;
+}
+
+#imc-result{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    color: #00b4bd;
+    font-size: 25px;
+    width: 90%;
+    justify-content: end;
+}
