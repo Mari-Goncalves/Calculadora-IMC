@@ -4,4 +4,4 @@ Calculator that indicates the body mass index through a calculation with the use
 
 Acess here: https://mari-goncalves.github.io/Calculadora-IMC/
 
-![image](https://user-images.githubusercontent.com/120994185/236707591-790d1c17-9785-4b72-8a21-eaa0b06b8fe6.png)
+![image](https://github.com/Mari-Goncalves/Calculadora-IMC/assets/120994185/692f2aae-3b9b-4374-a149-f4009449467b)
