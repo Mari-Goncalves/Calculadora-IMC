@@ -68,12 +68,12 @@ main{
     justify-content: space-between;
 }
 
+/* Ajustei a fonte para caber direitinho as frases */
 #imc-result{
-    font-size: 20px;
     display: flex;
     align-items: center;
     color: #00b4bd;
-    font-size: 25px;
+    font-size: 18px;
     width: 90%;
     justify-content: end;
 }
