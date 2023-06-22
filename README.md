@@ -1,7 +1,7 @@
 <h1 align="center"> IMC Calculator </h1>
 
 <div align="center">
-  <img width="742" alt="image" src="https://github.com/Mari-Goncalves/Calculadora-IMC/assets/120994185/692f2aae-3b9b-4374-a149-f4009449467b">
+  <img width="742" alt="image" src="https://github.com/Mari-Goncalves/Calculadora-IMC/assets/120994185/cc4e676b-daaa-437f-97c7-b2439db98db0">
 </div>
 
 <br>
@@ -14,6 +14,16 @@
 
 Calculator that indicates the body mass index through a calculation with the user's weight and height.
 * *Project deploy* -  https://mari-goncalves.github.io/Calculadora-IMC/
+
+---
+
+<br>
+
+## Usage example
+
+[usage-example-screen-capture-IMC-Calculator.webm](https://github.com/Mari-Goncalves/Calculadora-IMC/assets/120994185/ef9f4236-98c7-413a-a0ea-d98e8d62be5f)
+
+<br>
 
 ---
 
