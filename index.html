@@ -4,19 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cálculo de IMC</title>
+    <title>IMC Calculator</title>
 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/GlobalStyle.css">
+    <link rel="stylesheet" href="Css/MainContent.css">
     
 </head>
 <body>
 
  <main>
     <section id="container">
-        <h1 id="calculator-title">Calculadora IMC</h1>
+        <h1 id="calculator-title">IMC Calculator</h1>
         
         <article class="container-weig-heigh">
-            <label class="label-weig-heigh" for="">Informe sua altura (cm)</label>
+            <label class="label-weig-heigh" for="">Your heigh (cm)</label>
             <input
                 type="number"
                 class="information-field"  
@@ -24,7 +25,7 @@
         </article>
     
         <article class="container-weig-heigh">
-            <label class="label-weig-heigh" for="">Informe seu peso (kg)</label>
+            <label class="label-weig-heigh" for="">Your weigh (kg)</label>
             <input 
                 type="number"
                 class="information-field"      
@@ -32,14 +33,13 @@
         </article>
 
         <section id="container-button-result">
-            <button id="send-informations-button">Enviar</button>
+            <button id="send-informations-button">Send</button>
             <p id="imc-result"></p>
         </section>
     </section>
 </main>
 
+<script type="module" src="Javascript/Functions/ShowIMCResult.js"></script>
 
-    <!-- <script src="js/main.js"></script> -->
-    <script src="js/main02.js"></script>
 </body>
 </html>
