@@ -13,7 +13,7 @@
 
 
 Calculator that indicates the body mass index through a calculation with the user's weight and height.
-* *Acess here* -  https://mari-goncalves.github.io/Calculadora-IMC/
+* *Acess here* -  https://mari-goncalves.github.io/IMC-Calculator/
 
 ---
 
